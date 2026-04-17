@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+*.class
+*.jar
+
+# Local configuration file
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Log Files
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
